@@ -7,7 +7,7 @@ class App extends React.Component {
   render() {
     return (
       <div>
-        <PokeList pokemons={pokemons} />
+        <PokeList pokemonsList={pokemons} />
       </div>
     );
   }
