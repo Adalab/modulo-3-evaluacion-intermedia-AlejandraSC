@@ -1,4 +1,4 @@
-<h2>Descripción del proyecto: <h2>
+<h2>Descripción del proyecto: </h2>
 
 La web consiste en hacer un listado de pokemons, con una tarjeta para cada uno con información relevante como:
 -Imagen
