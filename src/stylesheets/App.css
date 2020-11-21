@@ -1,3 +1,16 @@
-.App {
+* {
+  background-color: bisque;
   text-align: center;
+  list-style: none;
+}
+
+.title {
+  color: brown;
+}
+
+.eachPokeContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  border: solid 1px sandybrown;
 }

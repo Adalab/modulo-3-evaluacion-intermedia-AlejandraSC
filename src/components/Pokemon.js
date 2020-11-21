@@ -3,8 +3,12 @@ import React from 'react';
 
 class Pokemon extends React.Component {
   render() {
-    const items = this.props.pokemon.types.map((name, index) => {
-      return <li key={index}>{name}</li>;
+    const items = this.props.pokemon.types.map((type, index) => {
+      return (
+        <li key={index} className="eachPokeType">
+          {type}
+        </li>
+      );
     });
 
     return (

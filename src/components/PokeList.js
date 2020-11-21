@@ -6,7 +6,7 @@ class PokeList extends React.Component {
   render() {
     const items = this.props.pokemonsList.map((pokemon, index) => {
       return (
-        <li key={pokemon.id}>
+        <li key={index} className="eachPokeContainer">
           <Pokemon pokemon={pokemon} />
         </li>
       );
