@@ -1,0 +1,14 @@
+.eachPokeType {
+  color: white;
+}
+
+.eachPokemonContainer {
+  border: solid 5px thistle;
+  display: flex;
+  flex-direction: column;
+}
+
+.eachPokeTitle {
+  color: #f11229;
+  text-align: center;
+}

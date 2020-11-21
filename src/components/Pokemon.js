@@ -1,4 +1,4 @@
-import '../stylesheets/App.css';
+import '../stylesheets/pokemon.css';
 import React from 'react';
 import PropTypes from 'prop-types';
 
@@ -13,11 +13,11 @@ class Pokemon extends React.Component {
     });
 
     return (
-      <article className="Pokemon">
-        <h2>{this.props.pokemon.name}</h2>
+      <div className="eachPokemonContainer">
+        <h2 className="eachPokeTitle">{this.props.pokemon.name}</h2>
         <img src={this.props.pokemon.url} alt="pokemon" />
         <ul>{items}</ul>
-      </article>
+      </div>
     );
   }
 }

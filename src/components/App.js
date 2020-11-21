@@ -6,9 +6,9 @@ import PokeList from './PokeList';
 class App extends React.Component {
   render() {
     return (
-      <div className="App">
-        <h1 className="title">Mi lista de pokemons</h1>
-        <PokeList className="pokeContainer" pokemonsList={pokemons} />
+      <div>
+        <h1 className="mainTitle">Mi lista de pokemons</h1>
+        <PokeList pokemonsList={pokemons} />
       </div>
     );
   }
