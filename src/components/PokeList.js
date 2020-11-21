@@ -1,13 +1,14 @@
 import '../stylesheets/App.css';
 import React from 'react';
+import PropTypes from 'prop-types';
 import Pokemon from './Pokemon';
 
 class PokeList extends React.Component {
   render() {
-    const items = this.props.pokemonsList.map((pokemon, index) => {
+    const items = this.props.pokemonsList.map((item) => {
       return (
-        <li key={index} className="eachPokeContainer">
-          <Pokemon pokemon={pokemon} />
+        <li key={item.id} className="eachPokeContainer">
+          <Pokemon pokemon={item} types={item.types} />
         </li>
       );
     });
@@ -19,5 +20,9 @@ class PokeList extends React.Component {
     );
   }
 }
+
+PokeList.propTypes = {
+  pokemonsList: PropTypes.array,
+};
 
 export default PokeList;
