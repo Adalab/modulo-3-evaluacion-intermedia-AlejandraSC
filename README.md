@@ -1,9 +1,9 @@
 <h2>Descripción del proyecto: </h2>
 
-La web consiste en hacer un listado de pokemons, con una tarjeta para cada uno con información relevante como:
--Imagen <br>
--Nombre <br>
--Tipo <br>
+La web consiste en hacer un listado de pokemons, con una tarjeta  con información relevante sobre cada uno como: <br>
+- Imagen <br>
+- Nombre <br>
+- Tipo <br>
 
 Es un ejercicio propuesto como método de evaluación del módulo 3 durante el BootCamp de Adalab.
 
