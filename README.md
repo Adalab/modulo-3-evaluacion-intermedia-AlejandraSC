@@ -1,20 +1,20 @@
-<h2>Descripción del proyecto: </h2>
+# Pokemons list
 
-La web consiste en hacer un listado de pokemons, con una tarjeta  con información relevante sobre cada uno como: <br>
-- Imagen <br>
-- Nombre <br>
-- Tipo <br>
+It is an exercise proposed as an evaluation method for module 3 during the Adalab's BootCamp.
 
-Es un ejercicio propuesto como método de evaluación del módulo 3 durante el BootCamp de Adalab.
+The web consists of making a list of pokemons, with a card which contains relevant information about each one such as: <br>
+- Image <br>
+- Name <br>
+- Type <br>
 
-<h4>Características:</h4>
+<h4>Characteristics:</h4>
 
 <ul> 
-<li>El proyecto está desarrollado con React</li>
-<li>La Información de los pokemon la obtenemos de un array de datos</li>
-<li>Tres componentes principales: App, PokeList, Pokemon  </li>
-<li>Datos de los items guardados en pokemons.json (components > Data)  </li>
-<li>Estilos CSS  </li>
+<li>The project is developed with React</li>
+<li>The information of the pokemon is obtained from an array of data</li>
+<li>Three main components: App, PokeList, Pokemon  </li>
+<li>Item data stored in pokemons.json (components> Data) </li>
+<li>Styles CSS  </li>
 </ul>
 
-Hazte con todos!
+
